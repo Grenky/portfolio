@@ -1,4 +1,25 @@
 .secondhome-wrapper {
     width: 100%;
-    height: 700px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    flex-flow: column;
+    margin-bottom: 100px;
+}
+.img8 {
+    width:  400px;
+    height: 550px; 
+
+}
+.secondhome-text-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.secondhome-text {
+    width: 700px;
+}
+.secondhome-maintitle {
+    margin: 0 auto;
 }

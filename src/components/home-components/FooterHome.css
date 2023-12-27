@@ -1,0 +1,16 @@
+.footerhome-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.footerhome-title {
+    margin-bottom: 50px;
+}
+
+.img9 {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
