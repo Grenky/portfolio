@@ -4,6 +4,7 @@ import './styles/Normalize.css';
 import './App.css';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import FrontPage from './components/FrontPage';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='home' element={<Home />}/>
         <Route path='portfolio' element={<Portfolio />}/>
         <Route path='contact' element={<Contact />}/>
+        <Route path='frontpage' element={<FrontPage />}/>
       </Routes>  
     </div>
   );

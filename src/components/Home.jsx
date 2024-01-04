@@ -9,10 +9,7 @@ export default function Home() {
     return(
         <div className="home-wrapper">
             <Header />
-            <FirstHome />
-            <InfoHome />
-            <SecondHome />
-            <FooterHome />
+
         </div>
     )
 }
