@@ -1,8 +1,10 @@
-import Header from "./Header"
+import '../styles/Contact.css';
+
+
 export default function Contact() {
     return(
         <div className="contact-wrapper">
-            <Header />
+                <h1>test</h1>
         </div>
     )
 }

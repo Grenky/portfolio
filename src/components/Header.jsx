@@ -6,12 +6,12 @@ export default function Header() {
     return(
         <header className='header-wrapper'>
             <div className="logo">
-                ANNA KAKAMA
+                <Link className='home-link' to='Home'>ANNA KAKAMA</Link>
             </div>
             <nav className='nav-menu'>
                 <ul className='link-wrapper'>
-                    <a href='https://www.speedtest.net/result/15683546164' alt ='home' className='home-link'>Home</a>
-                    <a href='https://www.speedtest.net/result/15683546164' alt ='portfolio' className='portfolio-link'>Portfolio</a>
+                    <Link className='home-link' alt ='home' to='Home'>Home</Link>
+                    <Link className='portfolio-link' alt ='portfolio' to='Portfolio'>Portfolio</Link>
                     <Link className='contact-link' to='Contact'>Contact</Link>
                 </ul>
             </nav>
