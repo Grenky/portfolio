@@ -1,3 +1,36 @@
 .contact-wrapper {
+    width: 100%;
     padding-top: 95px;
+    display: flex;
+    position: relative;
+}
+.contact-bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+.contact-left {
+    height: 100vh;
+}
+.contact-left, .contact-right {
+    width: 50%;
+}
+.contact-right {
+    display: flex;
+    flex-flow: column;
+}
+.contact-form {
+    display: flex;
+    flex-flow: column;
+    align-items: space-around;
+}
+.form-name, .form-surname, .form-telefon, .form-email {
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+}
+.form-btn {
+    height: 30px;
+    width: 200px;
+    margin: 0 auto;
 }
