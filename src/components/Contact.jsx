@@ -4,9 +4,9 @@ import '../styles/Contact.css';
 export default function Contact() {
     return(
         <div className="contact-wrapper">
-            <img className='contact-bg' src='./images/img9.jpg' alt='img'></img>
+            
             <div className='contact-left'>
-
+            <img className='contact-bg' src='./images/img9.jpg' alt='img'></img>
             </div>
             <div className='contact-right'>
             

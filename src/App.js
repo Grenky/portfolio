@@ -12,9 +12,9 @@ function App() {
       <Home />
       <Routes>
         <Route path='home' element={<Home />}/>
-        <Route path='portfolio' element={<Portfolio />}/>
-        <Route path='contact' element={<Contact />}/>
-        <Route path='frontpage' element={<FrontPage />}/>
+        <Route path='/portfolio' element={<Portfolio />}/>
+        <Route path='/contact' element={<Contact />}/>
+        <Route path='/' element={<FrontPage />}/>
       </Routes>  
     </div>
   );

@@ -5,9 +5,8 @@
     position: relative;
 }
 .contact-bg {
-    position: absolute;
-    z-index: -1;
-    width: 100%;
+    width: 700px;
+    height: 800px;
 }
 .contact-left {
     height: 100vh;
@@ -25,12 +24,12 @@
     align-items: space-around;
 }
 .form-name, .form-surname, .form-telefon, .form-email {
-    width: 400px;
+    width: 600px;
     height: 30px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 .form-btn {
-    height: 30px;
-    width: 200px;
+    height: 40px;
+    width: 300px;
     margin: 0 auto;
 }
