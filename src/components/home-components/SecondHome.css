@@ -1,25 +1,16 @@
 .secondhome-wrapper {
     width: 100%;
-    height: 1000px;
     display: flex;
-    justify-content: space-around;
-    border-bottom: 1px solid black;
-    flex-flow: column;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
+    justify-content: space-around; 
 }
-.img8 {
-    width:  400px;
-    height: 550px; 
-
+.img11, .img12, .img13, .img14, .img15, .img16 {
+    width:  500px;
+    height: 500px;
+    margin-bottom: 5px; 
 }
-.secondhome-text-box {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-}
-.secondhome-text {
-    width: 700px;
-}
-.secondhome-maintitle {
-    margin: 0 auto;
+.img11:hover, .img12:hover, .img13:hover, .img14:hover, .img15:hover, .img16:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+    cursor: pointer;
 }

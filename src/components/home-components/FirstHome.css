@@ -3,11 +3,16 @@
     padding-top: 95px;
     display: flex;
     flex-flow: column;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 .img1, .img2, .img3, .img4, .img5, .img6, .img10 {
     width:  500px;
     height: 500px;   
+}
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover, .img10:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+    cursor: pointer;    
 }
 .firsthome-title-box1 {
     display: flex;

@@ -1,16 +1,16 @@
 .infohome-wrapper {
     width: 100%;
-    height: 700px;
     display: flex;
     justify-content: space-around;
-    border-bottom: 1px solid black;
-    margin-bottom: 100px;
+    margin-bottom: 5px;
 }
-.img7 {
-    width:  400px;
-    height: 550px; 
+.img17, .img18, .img19 {
+    width:  500px;
+    height: 500px; 
 
 }
-.infohome-text-box {
-    width: 50%;
+.img17:hover, .img18:hover, .img19:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+    cursor: pointer;
 }
