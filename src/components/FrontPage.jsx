@@ -3,6 +3,7 @@ import InfoHome from "./home-components/InfoHome"
 import SecondHome from "./home-components/SecondHome"
 import FooterHome from "./home-components/FooterHome"
 import Header from "./Header"
+import '../styles/FrontPage.css';
 
 export default function FrontPage() {
     return(

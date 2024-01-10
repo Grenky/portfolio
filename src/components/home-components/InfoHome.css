@@ -1,13 +1,15 @@
 .infohome-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+    width: 100%; 
     margin-bottom: 5px;
 }
+.infohome {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 150px 0px 150px;
+}
 .img17, .img18, .img19 {
-    width:  500px;
-    height: 500px; 
-
+    width:  300px;
+    height: 300px; 
 }
 .img17:hover, .img18:hover, .img19:hover {
     opacity: 0.8;
