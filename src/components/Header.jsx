@@ -11,7 +11,7 @@ export default function Header() {
             <nav className='nav-menu'>
                 <ul className='link-wrapper'>
                     <Link className='home-link' alt ='home' to='/'>Home</Link>
-                    <Link className='portfolio-link' alt ='portfolio' to='Portfolio'>Portfolio</Link>
+                    <Link className='portfolio-link' alt ='portfolio' to='Portfolio'>Photo</Link>
                     <Link className='contact-link' to='Contact'>Contact</Link>
                 </ul>
             </nav>

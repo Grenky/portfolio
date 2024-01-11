@@ -1,0 +1,14 @@
+.portfolio-wrapper {
+    padding-top: 95px;
+    width: 100%;
+}
+.portfolio {
+    margin: 0 auto;
+}
+.people-link, .animals-link, .nature-link {
+    text-decoration: none;
+    border: 1px solid; 
+}
+.section-wrapper {
+    width: 100%;
+}
