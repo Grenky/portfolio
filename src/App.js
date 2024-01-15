@@ -18,7 +18,6 @@ function App() {
         <Route path='/portfolio' element={<Portfolio />}/>
         <Route path='/contact' element={<Contact />}/>
         <Route path='/' element={<FrontPage />}/>
-
         <Route path='People' element={<People />}/>
         <Route path='Animals' element={<Animals />}/>
         <Route path='Nature' element={<Nature />}/>

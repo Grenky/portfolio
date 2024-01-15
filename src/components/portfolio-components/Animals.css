@@ -1,0 +1,17 @@
+.animals-wrapper {
+    width: 100%;
+    padding-top: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.people1 {
+    width:  300px;
+    height: 300px;
+    margin-bottom: 5px;   
+}
+.people1:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+    cursor: pointer;    
+}
