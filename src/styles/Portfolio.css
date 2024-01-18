@@ -3,12 +3,33 @@
     width: 100%;
 }
 .portfolio {
-    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
 }
 .people-link, .animals-link, .nature-link {
     text-decoration: none;
     border: 1px solid; 
+    margin-right: 15px;
 }
 .section-wrapper {
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.slider {
+    padding-bottom: 50px;
+}
+.slider-img1, .slider-img2, .slider-img3 {
+    width: 650px;
+    height: 400px;
 }
