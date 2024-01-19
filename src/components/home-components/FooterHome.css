@@ -4,6 +4,7 @@
     flex-flow: column;
     align-items: center;
     margin-bottom: 10px;
+    font-family: 'Roboto Condensed';
 }
 .footerhome-title {
     margin-bottom: 10px;

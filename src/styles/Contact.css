@@ -3,6 +3,10 @@
     padding-top: 95px;
     display: flex;
     position: relative;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 20px;
+    
 }
 .contact-bg {
     width: 700px;
@@ -25,11 +29,17 @@
 }
 .form-name, .form-surname, .form-telefon, .form-email {
     width: 600px;
-    height: 30px;
+    height: 40px;
     margin: 0 auto 20px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 .form-btn {
-    height: 40px;
+    height: 60px;
     width: 300px;
     margin: 0 auto;
+    border-radius: 10px;
+    border-color: rgb(181, 179, 179);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }

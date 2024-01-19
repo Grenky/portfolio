@@ -7,7 +7,9 @@
     align-items: center;
     justify-content: space-between;
     z-index: 100;
-
+    font-family: 'Roboto Condensed';
+    font-weight: 100;
+    font-size: 25px;
 }
 .logo {
     font-size: 35px;

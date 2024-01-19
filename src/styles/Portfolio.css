@@ -1,6 +1,8 @@
 .portfolio-wrapper {
     padding-top: 95px;
     width: 100%;
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
 }
 .portfolio {
     display: flex;
@@ -11,8 +13,15 @@
 }
 .people-link, .animals-link, .nature-link {
     text-decoration: none;
-    border: 1px solid; 
     margin-right: 15px;
+}
+.people-btn, .animals-btn, .nature-btn {
+    height: 60px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border-color: rgb(181, 179, 179);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);   
 }
 .section-wrapper {
     width: 100%;

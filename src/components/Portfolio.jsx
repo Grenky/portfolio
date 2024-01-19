@@ -10,13 +10,13 @@ export default function Portfolio() {
         <div className="portfolio-wrapper">
             <div className="portfolio">
                 <Link className='people-link' alt='people' to='/People'>
-                    <button>People</button>
+                    <button className='people-btn'>People</button>
                 </Link>
                 <Link className='animals-link' alt='animals' to='/Animals'>
-                    <button>Animals</button>
+                    <button className='animals-btn'>Animals</button>
                 </Link> 
                 <Link className='nature-link' alt='nature' to='/Nature'>
-                    <button>Nature</button>
+                    <button className='nature-btn'>Nature</button>
                 </Link>             
             </div>
             <div className='section-wrapper'>

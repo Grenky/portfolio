@@ -4,6 +4,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    font-family: 'Roboto Condensed';
+    font-size: 22px;
 }
 .people1 {
     width:  300px;
