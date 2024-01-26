@@ -46,14 +46,15 @@ export default function Carousel ({children}) {
             },
         })
     })        
-)
+);
+
     }, [])
     
 
     return(
-        <div className="main-container">
+        <div className="main-container-slider">
             <FaChevronLeft className='arrow' onClick={handleLeftArrowClick}/>
-                <div className="window">
+                <div className="window-slider">
                     <div className="all-pages-container"
                     style={{
                         transform: `translateX(${offset}px)`,

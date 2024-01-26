@@ -1,5 +1,5 @@
 
-.main-container {
+.main-container-slider {
     height: 300px;
     width: 650px;
     padding-bottom: 50px;
@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-.window {
+.window-slider{
     height: 100%;
     width: 100%;
     overflow: hidden;

@@ -17,3 +17,25 @@
     transition: 0.2s;
     cursor: pointer;
 }
+.window {
+    height: 200px;
+    width: 500px;
+    background-color: rgb(219, 209, 209);
+    position: absolute;
+    left: 34%;
+    top: 30%;
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    
+}
+.animated {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+.show {
+    opacity: 1;
+    visibility: visible;
+}

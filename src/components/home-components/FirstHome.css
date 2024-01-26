@@ -28,3 +28,28 @@
     justify-content: space-around;
     padding: 0px 150px 0px 150px;
 }
+.window {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(219, 209, 209);
+    position: fixed;
+    left: 34%;
+    top: 30%;
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.animated {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.2s;
+}
+.show {
+    opacity: 1;
+    visibility: visible;
+}
+.pop-img {
+    width:  590px;
+    height: 470px;       
+}
