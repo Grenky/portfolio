@@ -2,6 +2,7 @@ import './Nature.css';
 import { Link } from 'react-router-dom';
 import Modal from '../home-components/Modal';
 import React, {useState} from 'react';
+import FooterHome from '../home-components/FooterHome';
 
 export default function Nature() {
 
@@ -32,6 +33,7 @@ export default function Nature() {
             <Modal active={modalActive} setActive={setModalActive}>
                 <img  src={imgSrc}  alt='img' className='pop-img'></img>           
             </Modal>
+            <FooterHome />
         </div>
     )
 }

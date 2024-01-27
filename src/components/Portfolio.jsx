@@ -1,6 +1,7 @@
 import '../styles/Portfolio.css';
 import { Link } from 'react-router-dom';
 import Carousel from './carousel/Carousel';
+import FooterHome from './home-components/FooterHome';
 
 export default function Portfolio() {
 
@@ -26,6 +27,7 @@ export default function Portfolio() {
                     <div className='item item-3'><img className='slider-img3' src='./images/slider-img3.JPG' alt='img'></img></div>
                 </Carousel>
             </div>
+            <FooterHome />
         </div>
     )
 }

@@ -2,6 +2,7 @@ import './People.css';
 import { Link } from 'react-router-dom';
 import React, {useState} from 'react';
 import Modal from '../home-components/Modal';
+import FooterHome from '../home-components/FooterHome';
 
 export default function People() {
 
@@ -69,6 +70,7 @@ export default function People() {
             <Modal active={modalActive} setActive={setModalActive}>
                 <img  src={imgSrc}  alt='img' className='pop-img'></img>
             </Modal>
+            <FooterHome />
         </div>
     )
 }
