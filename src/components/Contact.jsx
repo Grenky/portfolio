@@ -1,7 +1,6 @@
 import '../styles/Contact.css';
 
 
-
 export default function Contact() {
     return(
         <div className="contact-wrapper">
@@ -15,11 +14,19 @@ export default function Contact() {
                         Or  you can write me right on email.</div>
                         <p>Email: annkakama5@gmail.com</p>
                     <form className='contact-form'>
-                        <input className='form-name' placeholder='Name'></input>
-                        <input className='form-surname' placeholder='Surname'></input>
-                        <input className='form-email' placeholder='Email'></input>
+
+                        <input type="hidden" name="project_name" value="portfolio"></input>
+                        <input type="hidden" name="admin_email" value="annkakama5@gmail.com"></input>
+                        <input type="hidden" name="form_subject" value="Contact form"></input>
+
+                        <input name='name' className='form-name' placeholder='Name'></input>
+                        <input name='email' className='form-email' placeholder='Email'></input>
+                        <input name='message' className='form-surname' placeholder='Surname'></input>
+
                         <button className='form-btn'>Send</button>
                     </form>
+
+                   
                 </div>
              
         </div>

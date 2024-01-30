@@ -5,7 +5,7 @@ import FooterHome from './home-components/FooterHome';
 
 export default function Portfolio() {
 
-
+    
 
     return(
         <div className="portfolio-wrapper">
