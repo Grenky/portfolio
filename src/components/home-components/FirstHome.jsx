@@ -19,14 +19,15 @@ export default function FirstHome() {
                 <img onClick={() => handleClick('./images/img1.JPG')} src='./images/img1.JPG' className='img1' alt='img'></img>
                 <img onClick={() => handleClick('./images/img3.JPG')} src='./images/img3.JPG' className='img3' alt='img'></img>
                 <img onClick={() => handleClick('./images/img2.JPG')} src='./images/img2.JPG' className='img2' alt='img'></img>
-                <img onClick={() => handleClick('./images/img2.JPG')} src='./images/img2.JPG' className='img2' alt='img'></img>
+                <img onClick={() => handleClick('./images/IMG_3064.JPG')} src='./images/IMG_3064.JPG' className='img2' alt='img'></img>
+              
             </div>
             
             <div className='firsthome-title-box2'>  
                 <img onClick={() => handleClick('./images/img4.JPG')} src='./images/img4.JPG' className='img4' alt='img'></img>
                 <img onClick={() => handleClick('./images/img6.JPG')} src='./images/img6.JPG' className='img6' alt='img'></img>
                 <img onClick={() => handleClick('./images/img10.JPG')} src='./images/img10.JPG' className='img10' alt='img'></img>
-                <img onClick={() => handleClick('./images/img2.JPG')} src='./images/img2.JPG' className='img2' alt='img'></img>
+                <img onClick={() => handleClick('./images/DSC_7225.JPG')} src='./images/DSC_7225.JPG' className='img2' alt='img'></img>
             </div>
         <Modal active={modalActive} setActive={setModalActive}>
             <img  src={imgSrc}  alt='img' className='pop-img'></img>

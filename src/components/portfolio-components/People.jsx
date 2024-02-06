@@ -67,6 +67,12 @@ export default function People() {
             <img onClick={() => handleClick('./images/img59.JPG')} className='people1' src='./images/img59.JPG' alt='img'></img>
             <img onClick={() => handleClick('./images/img60.JPG')} className='people1' src='./images/img60.JPG' alt='img'></img>
             <img onClick={() => handleClick('./images/img61.JPG')} className='people1' src='./images/img61.JPG' alt='img'></img>
+            <img onClick={() => handleClick('./images/DSC_7146.JPG')} className='people1' src='./images/DSC_7146.JPG' alt='img'></img>
+            <img onClick={() => handleClick('./images/IMG_3017.JPG')} className='people1' src='./images/IMG_3017.JPG' alt='img'></img>
+            <img onClick={() => handleClick('./images/IMG_3000.JPG')} className='people1' src='./images/IMG_3000.JPG' alt='img'></img>
+            <img onClick={() => handleClick('./images/DSC_7227.JPG')} className='people1' src='./images/DSC_7227.JPG' alt='img'></img>
+            <img onClick={() => handleClick('./images/20220808132012_IMG_0198.JPG')} className='people1' src='./images/20220808132012_IMG_0198.JPG' alt='img'></img>
+            <img onClick={() => handleClick('./images/20221024091610_IMG_2147.JPG')} className='people1' src='./images/20221024091610_IMG_2147.JPG' alt='img'></img>             
             <Modal active={modalActive} setActive={setModalActive}>
                 <img  src={imgSrc}  alt='img' className='pop-img'></img>
             </Modal>

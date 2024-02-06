@@ -39,6 +39,7 @@ export default function Animals() {
             <img onClick={() => handleClick('./images/img70.JPG')} className='people1' src='./images/img70.JPG' alt='img'></img>
             <img onClick={() => handleClick('./images/img71.JPG')} className='people1' src='./images/img71.JPG' alt='img'></img>
             <img onClick={() => handleClick('./images/img72.JPG')} className='people1' src='./images/img72.JPG' alt='img'></img>
+            <img onClick={() => handleClick('./images/20221024091610_IMG_2147.JPG')} className='people1' src='./images/20221024091610_IMG_2147.JPG' alt='img'></img>
             <Modal active={modalActive} setActive={setModalActive}>
                 <img src={imgSrc} alt='img' className='pop-img'></img>
             </Modal>
