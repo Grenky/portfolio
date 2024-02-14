@@ -1,0 +1,210 @@
+
+
+@media (max-width: 1500px) {
+    .firsthome-title-box1 {
+        padding: 0px 120px 0px 120px!important;
+    }
+    .firsthome-title-box2 {
+        padding: 0px 120px 0px 120px!important;
+    }
+    .infohome {
+        padding: 0px 120px 0px 120px!important;
+    }
+    .secondhome {
+        padding: 0px 120px 0px 120px!important;
+    }
+}
+@media (max-width: 1440px) {
+    .firsthome-title-box1 {
+        padding: 0px 100px 0px 100px!important;
+    }
+    .firsthome-title-box2 {
+        padding: 0px 100px 0px 100px!important;
+    }
+    .infohome {
+        padding: 0px 100px 0px 100px!important;
+    }
+    .secondhome {
+        padding: 0px 100px 0px 100px!important;
+    }
+}
+@media (max-width: 1400px) {
+    .firsthome-title-box1 {
+        padding: 0px 50px 0px 50px!important;
+    }
+    .firsthome-title-box2 {
+        padding: 0px 50px 0px 50px!important;
+    }
+    .infohome {
+        padding: 0px 50px 0px 50px!important;
+    }
+    .secondhome {
+        padding: 0px 50px 0px 50px!important;
+    }
+}
+@media (max-width: 1300px) {
+    .firsthome-title-box1 {
+        padding: 0px 10px 0px 10px!important;
+    }
+    .firsthome-title-box2 {
+        padding: 0px 10px 0px 10px!important;
+    }
+    .infohome {
+        padding: 0px 10px 0px 10px!important;
+    }
+    .secondhome {
+        padding: 0px 10px 0px 10px!important;
+    }
+}
+@media (max-width: 1220px) {
+    .firsthome-title-box1 {
+        padding: 0px 140px 0px 140px!important;  
+    }
+    .firsthome-title-box2 {
+        padding: 0px 140px 0px 140px!important;
+    }
+    .infohome {
+        padding: 0px 140px 0px 140px!important;
+    }
+    .secondhome {
+        padding: 0px 140px 0px 140px!important;
+    }
+    .img4, .img8, .img20 {
+        display: none;
+    }
+}
+@media (max-width: 1180px) {
+    .firsthome-title-box1 {
+        padding: 0px 110px 0px 110px!important;  
+    }
+    .firsthome-title-box2 {
+        padding: 0px 110px 0px 110px!important;
+    }
+    .infohome {
+        padding: 0px 110px 0px 110px!important;
+    }
+    .secondhome {
+        padding: 0px 110px 0px 110px!important;
+    }
+}
+@media (max-width: 1100px) {
+    .firsthome-title-box1 {
+        padding: 0px 50px 0px 50px!important;  
+    }
+    .firsthome-title-box2 {
+        padding: 0px 50px 0px 50px!important;
+    }
+    .infohome {
+        padding: 0px 50px 0px 50px!important;
+    }
+    .secondhome {
+        padding: 0px 50px 0px 50px!important;
+    }
+}
+@media (max-width: 1000px) {
+    .firsthome-title-box1 {
+        padding: 0px 170px 0px 170px!important;
+        flex-wrap: wrap; 
+        margin-bottom: 0px!important; 
+    }
+    .firsthome-title-box2 {
+        padding: 0px 170px 0px 170px!important;
+        flex-wrap: wrap;
+    }
+    .infohome-wrapper {
+        margin-bottom: 0px!important;
+    }
+    .infohome {
+        padding: 0px 170px 0px 170px!important;
+        flex-wrap: wrap; 
+    }
+    .secondhome {
+        padding: 0px 170px 0px 170px!important;
+    }
+    .img4, .img8, .img20 {
+        display: block;
+    }
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img17, .img18, .img19, .img20 {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 940px) {
+    .firsthome-title-box1 {
+        padding: 0px 100px 0px 100px!important;
+        flex-wrap: wrap; 
+        margin-bottom: 0px!important; 
+    }
+    .firsthome-title-box2 {
+        padding: 0px 100px 0px 100px!important;
+        flex-wrap: wrap;
+    }
+    .infohome-wrapper {
+        margin-bottom: 0px!important;
+    }
+    .infohome {
+        padding: 0px 100px 0px 100px!important;
+        flex-wrap: wrap; 
+    }
+    .secondhome {
+        padding: 0px 100px 0px 100px!important;
+    }
+
+}
+@media (max-width: 800px) {
+    .firsthome-title-box1 {
+        padding: 0px 50px 0px 50px!important;
+        flex-wrap: wrap; 
+        margin-bottom: 0px!important; 
+    }
+    .firsthome-title-box2 {
+        padding: 0px 50px 0px 50px!important;
+        flex-wrap: wrap;
+    }
+    .infohome-wrapper {
+        margin-bottom: 0px!important;
+    }
+    .infohome {
+        padding: 0px 50px 0px 50px!important;
+        flex-wrap: wrap; 
+    }
+    .secondhome {
+        padding: 0px 50px 0px 50px!important;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .firsthome-title-box1 {
+        padding: 0px 0px 0px 0px!important;
+        flex-wrap: wrap; 
+        margin-bottom: 0px!important; 
+    }
+    .firsthome-title-box2 {
+        padding: 0px 0px 0px 0px!important;
+        flex-wrap: wrap;
+    }
+    .infohome-wrapper {
+        margin-bottom: 0px!important;
+    }
+    .infohome {
+        padding: 0px 0px 0px 0px!important;
+        flex-wrap: wrap; 
+    }
+    .secondhome {
+        padding: 0px 0px 0px 0px!important;
+    }
+
+}
+@media (max-width: 559px) {
+    .footerhome-title {
+        font-size: 20px!important;
+    } 
+
+}
+@media (max-width: 491px) {
+    .footerhome-title {
+        font-size: 18px!important;
+    } 
+
+}
