@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import React, {useState} from 'react';
 import Modal from '../home-components/Modal';
 import FooterHome from '../home-components/FooterHome';
+import '../home-components/media.css';
 
 export default function People() {
 

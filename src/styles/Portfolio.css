@@ -10,6 +10,7 @@
     height: 250px;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .people-link, .animals-link, .nature-link {
     text-decoration: none;

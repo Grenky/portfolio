@@ -1,5 +1,5 @@
 import '../styles/Contact.css';
-
+import '../components/home-components/media.css';
 
 export default function Contact() {
     return(
